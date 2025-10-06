@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    tools:ignore="ExtraText">
+
+    <!-- Date label -->
+    <TextView
+        android:id="@+id/date_text_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Date"
+        android:textColor="@color/text_charcoal"
+        tools:ignore="HardcodedText" />
+
+    <!-- Weight label -->
+    <TextView
+        android:id="@+id/weight_text_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Weight"
+        android:textColor="@color/text_charcoal"
+        tools:ignore="HardcodedText" />
+
+    <!-- Edit button -->
+    <Button
+        android:id="@+id/edit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit"
+        android:textColor="@color/background_light_gray"
+        android:backgroundTint="@color/accent_coral"
+        tools:ignore="HardcodedText" />
+
+    <!-- Delete button -->
+    <Button
+        android:id="@+id/delete_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:textColor="@color/background_light_gray"
+        android:backgroundTint="@color/accent_coral"
+        tools:ignore="HardcodedText" />
+</LinearLayout>

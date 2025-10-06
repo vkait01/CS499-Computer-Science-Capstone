@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/background_light_gray">
+
+    <!-- TextView to display the current SMS permission status -->
+    <TextView
+        android:id="@+id/tv_permission_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SMS Permission Status"
+        android:textSize="18sp"
+        android:textColor="@color/primary_light_blue"
+        android:padding="16dp"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Button to request SMS permission from the user -->
+    <Button
+        android:id="@+id/btn_request_permission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Request SMS Permission"
+        android:textColor="@color/background_light_gray"
+        android:backgroundTint="@color/secondary_navy_blue"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Button to send SMS -->
+    <Button
+        android:id="@+id/btn_send_sms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send SMS"
+        android:textColor="@color/background_light_gray"
+        android:backgroundTint="@color/primary_light_blue"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- TextView to display notifications based on user response -->
+    <TextView
+        android:id="@+id/tv_notification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notification"
+        android:textSize="18sp"
+        android:textColor="@color/primary_light_blue"
+        android:visibility="gone"
+        android:padding="16dp"/>
+</LinearLayout>
